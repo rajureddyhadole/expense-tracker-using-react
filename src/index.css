@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: hsl(0, 10%, 90%);
+}
+
+#minus {
+    border-right: 4px solid red;
+}
+
+#plus {
+    border-right: 4px solid rgb(4, 224, 4);
+}
