@@ -4,18 +4,20 @@ import IncomeExpense from "./components/IncomeExpense";
 import TransactionList from "./components/TransactionList";
 import NewTransaction from "./components/NewTransaction";
 
-import {GlobalProvider} from './components/GlobalState';
+import { GlobalProvider } from './components/GlobalState';
 
 function App() {
   return (
-    <div className="max-w-sm px-4 pt-4 pb-2 mx-auto mt-12 mb-2 bg-gray-100">
-    <GlobalProvider>
-    <Header />
-    <Balance />
-    <IncomeExpense />
-    <TransactionList />
-    <NewTransaction />
-    </GlobalProvider>
+    <div className="flex items-center justify-center h-[100vh]">
+      <div className="max-w-sm p-5 mx-5 mt-12 mb-2 bg-gray-100 rounded-md shadow-lg">
+        <GlobalProvider>
+          <Header />
+          <Balance />
+          <IncomeExpense />
+          <TransactionList />
+          <NewTransaction />
+        </GlobalProvider>
+      </div>
     </div>
   )
 }

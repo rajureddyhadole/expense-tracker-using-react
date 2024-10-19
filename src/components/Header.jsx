@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h1 className='text-xl font-semibold text-center'>Expense Tracker</h1>
+    <h1 className='text-2xl font-bold text-center'>Expense Tracker</h1>
   )
 }
 
